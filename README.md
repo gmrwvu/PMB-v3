@@ -20,7 +20,7 @@ V3's own code adds the **budget constraint**, the **bid decision layer**, and re
 - **Diagonal** (fixed) campaigns: exactly one eligible creative per segment.
 - **Crossed** (rotation) campaigns: multiple eligible creatives per segment, requiring an in-flight creative-selection decision.
 
-### Bidding systems simulated
+### Allocation systems simulated
 
 | System | Behaviour |
 |---|---|
