@@ -75,7 +75,7 @@ The SQLite database, `pmb_market_gmr_v3.db`, stores the results from the run tha
 
 ### R approach to post-processing
 
-Open RGui, then:
+Open RGui, then (please replace C:/R_Code/ with your path to the system files):
 
 ```r
 setwd("C:/R_Code")
