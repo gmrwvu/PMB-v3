@@ -73,7 +73,7 @@ With v3, on a standard desktop or laptop, a simulation with 60 replications will
 
 The SQLite database, `pmb_market_gmr_v3.db`, stores the results from the run that produced the `Figure1.xlsx` and `Figure2.xlsx` files of results from a 60-replication run with this version of the PMB system.
 
-### R approach
+### R approach to post-processing
 
 Open RGui, then:
 
