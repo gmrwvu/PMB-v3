@@ -82,7 +82,7 @@ setwd("C:/R_Code")
 source("pmb_v3_postprocess.R")
 ```
 
-In addition to the table printouts in RGui the post-processing produces an Excel file with worksheets presenting data used in the post-processing. You can create the Figure 1 Box and Whisker chart by selecting the Figure 1 worksheet and inserting a Box and Whisker chart. Likewise with the Figure 2 worksheet.
+In addition to the table printouts in RGui, the post-processing produces an Excel file with worksheets presenting data used in the post-processing. You can create the Figure 1 Box and Whisker chart by selecting the Figure 1 worksheet and inserting a Box and Whisker chart. Likewise with the Figure 2 worksheet.
 You now have the data needed to produce the charts and tables in the report.
 
 ### SQLite and Excel approach
