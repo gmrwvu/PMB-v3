@@ -69,7 +69,7 @@ print(study_v3)
 
 ## Runtime and post-processing
 
-With v3, on a standard desktop or laptop, a simulation with 60 replications will take approximately 60 hours. The simulation outputs an SQLite database that can be used with post-processing routines. As an alternative, the reader is invited to download the SQLite database in this GitHub repository and go straight to post-processing to produce the tables and charts that are reported in the paper. As another alternative, v5 of the system can be used; it spreads the work across multiple logical processors, so the 60-replication simulation can be completed in about 14 hours.
+With v3, on a standard desktop or laptop, a simulation with 60 replications will take approximately 60 hours. The simulation outputs a SQLite database that can be used with post-processing routines. As an alternative, the reader is invited to download the SQLite database in this GitHub repository and go straight to post-processing to produce the tables and charts that are reported in the paper. As another alternative, v5 of the system can be used; it spreads the work across multiple logical processors, so the 60-replication simulation can be completed in about 14 hours.
 
 The SQLite database, `pmb_market_gmr_v3.db`, stores the results from the run that produced the `Figure1.xlsx` and `Figure2.xlsx` files of results from a 60-replication run with this version of the PMB system.
 
