@@ -67,6 +67,14 @@ print(study_v3)
 | `bid_epsilon` | bid pacing | Blend weight given to flat pacing (vs. score-based selective bidding) in the bid-probability formula. |
 | `allocation_policy` | creative selection | `"proportional"` (weight by predicted value) or `"epsilon_greedy"` (mostly best, explore with `creative_epsilon`). |
 
+## Associated research article
+
+This repository contains the simulation source code, experimental output and statistical post-processing routines associated with the article:
+
+Ray, G. (2026). ‘When more creative choice is harder to exploit: Creative rotation in programmatic advertising’. Applied Marketing Analytics (manuscript under review).
+
+The SQLite database provided in this repository contains the original experimental results used in preparing the article. Researchers may independently regenerate the experiment using the supplied R source code or verify the reported statistical results using the supplied database and post-processing routines without rerunning the simulation.
+
 ## Runtime and post-processing
 
 With v3, on a standard desktop or laptop, a simulation with 60 replications will take approximately 60 hours. The simulation outputs a SQLite database that can be used with post-processing routines. As an alternative, the reader is invited to download the SQLite database in this GitHub repository and go straight to post-processing to produce the tables and charts that are reported in the paper. As another alternative, v5 of the system can be used; it spreads the work across multiple logical processors, so the 60-replication simulation can be completed in about 14 hours.
