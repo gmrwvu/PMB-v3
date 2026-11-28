@@ -20,7 +20,7 @@ V3's own code adds the **budget constraint**, the **bid decision layer**, and re
 - **Diagonal** (fixed) campaigns: exactly one eligible creative per segment.
 - **Crossed** (rotation) campaigns: multiple eligible creatives per segment, requiring an in-flight creative-selection decision.
 
-### Allocation systems simulated
+### Allocation systems available
 
 | System | Behaviour |
 |---|---|
@@ -30,6 +30,8 @@ V3's own code adds the **budget constraint**, the **bid decision layer**, and re
 | `two_way` | Logistic model with two-way interactions + adaptive bid pacing. |
 | `oracle_online` | Knows the true conversion probabilities now, but not the future sequence of auctions. |
 | `oracle_clairvoyant` | Knows both the truth and the entire future auction sequence in advance (upper-bound benchmark). |
+
+Only three used in the study for the paper. 
 
 ## Usage
 
